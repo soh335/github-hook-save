@@ -1,6 +1,7 @@
 # A sample Gemfile
 source "https://rubygems.org"
 
+ruby '1.9.3'
 gem 'actionpack', '~> 4.0.0.rc1'
 gem 'rack', '~> 1.4'
 gem 'kaminari', :git => "git://github.com/amatsuda/kaminari.git", :require => 'kaminari/sinatra'
