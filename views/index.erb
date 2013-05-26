@@ -1,0 +1,13 @@
+<html>
+<head>
+<title>events</title>
+</head>
+<body>
+<div>
+<% @events.each do |e| %>
+<pre><%= e %></pre>
+<% end %>
+</div>
+<%= paginate @events %>
+</body>
+</html>
